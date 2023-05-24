@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Siddham&display=swap');
+
+  :root {
+    --font-family: 'Noto Sans Siddham', sans-serif;
+    --bg-color:#E5F9DB ;
+    --primary-color: #212A3E;
+  }
+
+  body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--primary-color);    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.num-inicial {
+    color: #FF0000;
+}
+
+.mensagem {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+#box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding-top: 35px;
+    margin: 20px;    
+}
+
+#botaoJogar {
+  padding: 20px;
+  background-color: #FFE569;
+  border-radius: 2ch;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px;
+}
+
+#botaoJogar:hover {
+  font-size: 20px;
+}
+
+#botaoJogar:active {
+  background-color: #F79327;
+  color: aliceblue;
+}
